@@ -1,0 +1,24 @@
+body{
+    /* background-color: red; */
+}
+.card{
+    width: 310px;
+    height: 570px;
+    display: flex;
+    flex-flow: column wrap ;
+    border-radius: 10px;
+}
+.img{
+    width: 310px;
+    height: 220px;
+    background-image: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.content{
+    width: 250px;
+    height: 330px;
+}
+.btn{
+    width: 260px;
+}
